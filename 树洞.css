@@ -1,0 +1,116 @@
+body { 
+    background: url(image/bg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:      "Microsoft Yahei";
+    font-size:        small;
+    margin:           0px;
+}
+
+#main {
+    padding: 0px;
+    width:1000px;
+    text-align: left;
+    line-height: 1.5;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:absolute;
+    margin:auto
+}
+
+.textsquare{
+    width:1000px;
+    margin-top: -50px;
+    background: rgba(0, 0, 0, 0.39);
+}
+
+.headtext{
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    width:800px;
+    text-align:left;
+    color:rgb(255, 255, 255);
+}
+
+.text{
+    margin: 0 auto;
+	font-size: 24px;
+    font-weight: 500;
+    line-height: 2;
+    width:800px;
+	color:rgba(235, 235, 235, 0.911);
+    text-align:left;
+	font-family:"Microsoft Yahei";
+}
+
+.end{
+    margin: 0 auto;
+	font-size: 24px;
+    font-weight: bold;
+    line-height: 4;
+    width:800px;
+	color:rgb(141, 141, 141);
+    text-align:right;
+	font-family:"Microsoft Yahei";
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+.shape{
+    margin:0 auto;
+    width:100%;
+    height:40px;
+    background-color:rgb(126, 126, 126);
+    list-style:none;
+}
+.shape li{
+    width:25%;
+    text-align:center;
+    padding-top:8px;
+    padding-bottom:8px;
+    float:left;
+}
+.shape li a{
+    font-size:18px;
+    display:block;
+    width:100%;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+}
+.shape li:hover{
+    background-color:rgb(0, 0, 0);
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 400px;
+}
+
+th{
+    text-align:center;
+    line-height: 1.5;
+    font-size:14px;
+    color: white;
+}
+
+button{
+    margin: 0px;
+    padding: 5px 10px 5px 10px;
+    color:#000000;
+    background-color:#24242465;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:Microsoft Yahei;
+    text-align:center;
+    border-radius:5px;
+}

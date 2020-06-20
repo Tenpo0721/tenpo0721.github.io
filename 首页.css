@@ -1,0 +1,149 @@
+body{
+	background: url(image/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	margin:0px;
+	padding:0px;
+}
+
+#photoint{
+	margin: 0 auto;
+	width:1200px;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.inttext{
+	color: white;
+	font-size: 24px;
+	font-weight: bolder;
+	margin-left: 43%;
+	margin-top: -30px;
+}
+
+#movephoto {
+	width:1200px;
+	height:600px;
+	margin: 0 auto;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.movearea {
+	width:800px;
+	height:500px;
+	overflow:hidden; 
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.moveareaphoto {
+	width:5000px;
+	height:500px;
+	animation:playMovie 15s linear infinite;
+}
+
+.moveareaaction {
+	width:800px;
+	height:500px;
+	float:left;
+}
+
+.moveareaaction>img{
+	width:100%;
+	height:100%;
+}
+
+@keyframes playMovie {
+	0% {margin-left:0px;}
+	10% {margin-left:0px;}
+	20% {margin-left:-800px;}
+	40% {margin-left:-800px;}
+	50% {margin-left:-1600px;}
+	70% {margin-left:-1600px;}
+	80% {margin-left:-2400px;}
+	90% {margin-left:-2400px;}
+	100% {margin-left:-3200px;}
+}
+
+
+*{
+    padding:0;
+    margin:0;
+}
+.shape{
+    margin:0 auto;
+    width:100%;
+    height:40px;
+    background-color:rgba(65, 65, 65, 0.9);
+    list-style:none;
+}
+.shape li{
+    width:25%;
+    text-align:center;
+    padding-top:8px;
+    padding-bottom:8px;
+    float:left;
+}
+.shape li a{
+    font-size:18px;
+    display:block;
+    width:100%;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+}
+.shape li:hover{
+    background-color:rgb(0, 0, 0);
+}
+
+#self{
+	width:1200px;
+	height:400px;
+	margin: 0 auto;
+	background-color:rgba(0, 0, 0, 0.5);
+	
+}
+
+.selfimformation{	
+	border-style: double;
+	width: 40px;
+	padding: 5px;
+	margin-top: 100px;
+	margin-left: 100px;
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	font-weight: bold;
+	float:left;
+}
+
+.selfimg{
+	border-radius:100%; 
+	overflow:hidden; 
+	margin-top: 100px;
+	margin-left: 20%;
+	float:left;
+}
+
+.selfintroduce{
+	margin-top: 100px;
+	margin-right: 20%;
+	float:right;
+}
+
+.selfintroduce a1{	
+	display:inline;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.selfintroduce a2{
+	padding-left: 40px;
+	display:inline;
+	color: white;
+	font-size: 22px;
+	font-weight: normal;
+}

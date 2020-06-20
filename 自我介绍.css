@@ -1,0 +1,89 @@
+body{
+	background: url(image/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	margin:0px;
+	padding:0px;
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+.shape{
+    margin:0 auto;
+    width:100%;
+    height:40px;
+    background-color:rgba(65, 65, 65, 0.9);
+    list-style:none;
+}
+.shape li{
+    width:25%;
+    text-align:center;
+    padding-top:8px;
+    padding-bottom:8px;
+    float:left;
+}
+.shape li a{
+    font-size:18px;
+    display:block;
+    width:100%;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+}
+.shape li:hover{
+    background-color:rgb(0, 0, 0);
+}
+
+#music{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.musicarea{
+    display: none;
+}
+
+#main{
+    width:1400px;
+    height:100%;
+    padding: 0;
+	margin: 0 auto;
+}
+
+.english{   
+    height: 600px;
+    background-color:rgba(0, 88, 104, 0.3);
+}
+
+.englishtext{
+    padding-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
+	font-size: 22px;
+    font-weight: normal;
+    line-height: 2;
+	color:rgb(255, 255, 255);
+    text-align:left;
+	font-family:"Microsoft Yahei";
+}
+
+.chinese{
+    height: 350px;
+    background-color:rgba(14, 61, 34, 0.3);
+}
+
+.chinesetext{
+    padding-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
+	font-size: 21px;
+    font-weight: normal;
+    line-height: 1.7;
+	color:rgb(255, 255, 255);
+    text-align:left;
+	font-family:"STKaiti";
+}

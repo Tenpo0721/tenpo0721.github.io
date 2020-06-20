@@ -1,0 +1,89 @@
+body { 
+    background: url(image/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:"Microsoft Yahei";
+    font-size: medium;
+    margin: 0px;
+}
+  
+#main {
+    border:white;
+    width: 1200px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    position:absolute;
+    top:40px;
+    bottom:-50px;
+    left:0;
+    right:0;
+    margin:auto
+}
+
+.title{
+    padding: 20px 20px 20px 20px;
+    font-size: 24px;
+    font-weight:bolder;
+    color:#ffffff;
+    text-align: center;
+    padding-top:10px;
+}
+
+table{
+    border:1px solid white;
+    border-spacing:0px;
+    width :1000px;
+    caption-side: bottom;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout:fixed;
+}
+th{
+    color:#000000;
+    width: 1000px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+td,th{
+    border:thin solid white;
+    padding:10px;
+    text-align:left;
+}
+td{
+    padding: 10px 20px 10px 20px;
+    color:rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+.shape{
+    margin:0 auto;
+    width:100%;
+    height:40px;
+    background-color:rgba(65, 65, 65, 0.9);
+    list-style:none;
+}
+.shape li{
+    width:25%;
+    text-align:center;
+    padding-top:8px;
+    padding-bottom:8px;
+    float:left;
+}
+.shape li a{
+    font-size:18px;
+    display:block;
+    width:100%;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+}
+.shape li:hover{
+    background-color:rgb(0, 0, 0);
+}
